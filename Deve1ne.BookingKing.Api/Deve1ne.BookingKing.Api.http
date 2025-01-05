@@ -1,0 +1,6 @@
+@Deve1ne.BookingKing.Api_HostAddress = http://localhost:5230
+
+GET {{Deve1ne.BookingKing.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
