@@ -1,0 +1,12 @@
+using Deve1ne.BookingKing.Application.Dtos.BandSide;
+using MediatR;
+
+namespace Deve1ne.BookingKing.Application.Features.Users.Commands;
+
+public class DeleteUserCommandHandler : IRequestHandler<DeleteUserCommand, UserDto>
+{
+    public Task<UserDto> Handle(DeleteUserCommand request, CancellationToken cancellationToken)
+    {
+        throw new NotImplementedException();
+    }
+}
