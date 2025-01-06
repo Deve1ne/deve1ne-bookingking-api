@@ -5,4 +5,6 @@ public class TourDto
     List<BookedDateDto> Dates { get; set; }
 
     List<BandDto> Bands { get; set; }
+    
+    String Type { get; set; }
 }

@@ -4,5 +4,7 @@ public class TemplateDto
 {
     string PlatformType { get; set; }
     
-    string Text { get; set; }
+    string RichText { get; set; }
+    
+    string Stage { get; set; }
 }
